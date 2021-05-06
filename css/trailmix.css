@@ -1,0 +1,252 @@
+body {
+  margin: 0px 0px 10px 0px !important; /* eliminates outer border */ 
+}
+
+#title_header {
+    font-family: 'Limelight'; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px;
+    display: inline;
+    color: #FFF;
+    vertical-align: -10px;
+    margin-left: 5px;
+}
+
+.title {
+    width: 175px;
+    height: 30px;
+    margin: 0;
+    border: 0;
+    background-color: #c78766;
+}
+
+ul {
+  margin-top: -5px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.login {
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-note{
+  color: blue;
+}
+
+.font-limelight{
+  font-family: Limelight;
+}
+
+.profile_user {
+    text-align: center;
+    font-size: 18px;
+}
+
+.heading_titles {
+    font-size: 18px;
+    line-height: 10.4px;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+.padding-lr {
+  /* Used to keep content from going to the edge of the viewer window */
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.refresh {
+  width: 167px;
+}
+
+#current_trail, #users_searches {
+  margin-top: 0px;
+  display: none;
+}
+
+#enable_disable_container {
+  text-align: center;
+  font-size: 14px;
+}
+
+#refresh_container, #preferences_container, #login_container, #account_container, #hi, #setting_container {
+  display: none;
+}
+
+#refresh_details1 {
+    font-size: 14px;
+    color:rgb(57, 187, 79);
+    text-align: center;
+}
+#refresh_details2 {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+#preferences_details1 {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+#refresh_btn, #test, #create-account-submit, #show, #signup-submit,#logout-submit, #login-submit, #show_current_trail, #show_users_searches {
+    margin-top: 10px;
+    transform: translate(17%,-50%);
+    width: 130px;
+    height: 28px;
+    background-color: #c78766;
+    color: white;
+    font-weight: bold;
+}
+
+/*Main buttons -- default buttons*/
+#refresh {
+    background: url(../images/refresh.jpg);
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    margin-left: 64px;
+    margin-top: 0;
+}
+#preferences {
+    background: url(../images/preferences.jpg);
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+#profile {
+    background: url(../images/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    margin-left: 8px;
+    margin-top: 0px;
+    padding-right: 4px;
+}
+.settings-icon {
+  padding-top: 0.3rem;
+  padding-left: 2.1rem;
+  width: 20px;
+  height: auto;
+}
+.settings-save-btn {
+  height: 28px;
+  width: 45px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  background-color: #c78766;
+}
+
+button {
+    height: 28px;
+    width: 28px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+}
+/*---------------------------------*/
+.textbox-entry {
+  width: 90%;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+ /* The switch - the box around the slider */
+ .switch {
+    position: absolute;
+    display: inline-block;
+    width: 54px;
+    height: 28px;
+    margin-left: 5px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4fb657;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(200, 80, 80);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px white;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } 
+
+  #form-submit, #login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #c78766;
+    cursor: pointer;
+    outline: none;
+  }
+  .login-form-field {
+    width: 160px;
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+  }
